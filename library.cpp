@@ -1,4 +1,5 @@
 #include "library.h"
+#include <stdexcept>
 using namespace std;
 
 Library::Library() :bookCollection(), numberOfBooks(0) {
