@@ -12,6 +12,7 @@ void Library::checkoutBook(int id, Book& checkedOutBook) {
         if (book.getID() == id) {
             if (!book.getIsCheckedout()) { // Use getIsCheckedout() instead of isCheckedout()
                 book.checkout();
+                checkedOutBook = book;
                 return;
             } else {
                 throw runtime_error("Book is already checked out");

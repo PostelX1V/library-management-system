@@ -6,10 +6,6 @@ using namespace std;
 int main() {
     Library library;
 
-    // Add some books to the library
-    library.addBook(Book(1, "Book 1", "Author 1", "Genre 1"));
-    library.addBook(Book(2, "Book 2", "Author 2", "Genre 2"));
-    library.addBook(Book(3, "Book 3", "Author 3", "Genre 3"));
 
     while (true) {
         cout << "Select an option:\n";
